@@ -14,10 +14,11 @@
 ## 实现时具体问题总结
 + 实现过渡与动画  
 
-  * transition需要事件触发，animation不用，一上来就可以加载
-    【分析】点击导航栏，切换页面，并且页面中的上下段落有碰撞动画
-           这里切换页面是根据点击触发的，使用transition;
-            碰撞动画直接加载，使用animation.
+  * transition需要事件触发，animation不用，一上来就可以加载  
+    【分析】  
+    （点击导航栏，切换页面，并且页面中的上下段落有碰撞动画）  
+    这里切换页面是根据点击触发的，使用transition;  
+    碰撞动画直接加载，使用animation.  
   * 使用transform中的translate调整页面的位置变化 
   * 使用：checked匹配每个已被选中的 input 元素
 
