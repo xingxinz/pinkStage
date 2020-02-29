@@ -12,7 +12,8 @@
 - 显示适配不同尺寸屏幕
 
 ## 实现时具体问题总结
-- 区分什么需求用transition 什么用animation
+- 区分什么需求用transition 什么用animation   
+
 （transition需要事件触发，animation不用，一上来就可以加载）
 涉及两处：点击导航栏，切换页面，并且页面中的上下段落有碰撞动画
 这里切换页面是根据点击触发的，使用transition
@@ -20,11 +21,12 @@
 使用transform中的translate调整页面的位置变化 
 使用：checked匹配每个已被选中的 input 元素
 
-- 选择器
-element>element 只能选择作为某一元素子元素的元素
-element+element 相邻兄弟选择器
-element~element 后续兄弟选择器
-[attribute] 选择带有attribute 属性所有元素。
+- 选择器   
+
+element>element 只能选择作为某一元素子元素的元素   
+element+element 相邻兄弟选择器   
+element~element 后续兄弟选择器   
+[attribute] 选择带有attribute 属性所有元素。   
 
 - 有些图标可以通过自设字体库实现，页面可以减少加载图片
 
