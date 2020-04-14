@@ -35,3 +35,5 @@
   + 内容为空  width:0;height:0
   + 增大border宽度
   + 设置其他边为透明色 transparent
+
+实现效果链接：https://xingxinz.github.io/pinkStage/index.html
